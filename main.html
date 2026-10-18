@@ -1,19 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="ua">
+<head>
+  <title>Лб №1</title>
+  <style>
+  aside {
+  float: right;
+  width: 20%;
+  padding: 2%;
+  align-self: center;
+  padding-right: 5%;
+  background-color: #f1f1f1;
+  height: 100%;
+  font-size: 19px;
+}
+  a {
+    padding-right: 6%;
+    font-size: 22px;
+  }
+  li {
+    padding: 0.4%;
+  }
+  </style>
+</head>
 <body>
-  <nav ="50">
+  <nav align="center">
     <a href="#text">Текст</a>
-    <a href="#ulist"><t></t>Структура ХНУРЕ</a>
-    <a href="#table">     Курс валют</a>
-    <a href="#form">      Голосувати</a>
+    <a href="#ulist">Структура ХНУРЕ</a>
+    <a href="#table">Курс валют</a>
+    <a href="#form">Голосувати</a>
   </nav>
 <!-- git remote show origin, commit -m "", add, rm, push -->
-<p id="text">
+<aside id="text">
 Для будь-якого натурального числа <b>n&gt;2</b> рівняння
 a<sup>n</sup>+b<sup>n</sup>=c<sup>n</sup> <b>не має рішень</b> при
 цілих ненульових числах a, b, c.
-</p><p>
-<div id="ulist">Структура ХНУРЕ:</div>
+
+<table id="table" width="300" border="1">
+  <tr align="center"><th>Валюта</th><th>Купівля</th><th>Продаж</th></tr>
+  <tr align="center"><td>USD</td><td>44,81375</td><td>45,33598</td></tr>
+  <tr align="center"><td>EUR</td><td>50,22081</td><td>50,88565</td></tr>
+  <tr align="center"><td>PLN</td><td>11,21625</td><td>11,68938</td></tr>
+  <tr align="center"><td>GBP</td><td>58,60652</td><td>60,30957</td></tr>
+  <tr align="center"><td>CHF</td><td>53,39231</td><td>55,15</td></tr>
+</table>
+
+<div id="form"><form name="form">
+Проголосуйте за найкращий предмет на 1 курсі бакалаврату<br>
+  <input type="radio" name="subject" id="math"><label for="math">Вища математика</label><br>
+  <input type="radio" name="subject" id="physics"><label for="physics">Фізика</label><br>
+  <input type="radio" name="subject" id="PE"><label for="PE">Фізичне виховання</label><br>
+  <input type="radio" name="subject" id="program"><label for="program">Програмування</label><br>
+  <input type="submit"><br>
+      </form>
+    </div>
+  </aside>
+<h1 id="ulist" align="center">Структура ХНУРЕ:</h1>
 <ul type="square">
   <li>Факультет комп’ютерних наук (КН)</li>
   <ul>
@@ -68,29 +109,5 @@ a<sup>n</sup>+b<sup>n</sup>=c<sup>n</sup> <b>не має рішень</b> при
     <li>Навчально-наукова лабораторія біомедичних систем і нанотехнологій (ННЛ БСН)</li>
   </ul>
 </ul>
-</p>
-<table id="table" width="300" border="1">
-<tr align="center"><th>Валюта</th><th>Купівля</th><th>Продаж</th></tr>
-<tr align="center"><td>USD</td><td>44,81375</td><td>45,33598</td></tr>
-<tr align="center"><td>EUR</td><td>50,22081</td><td>50,88565</td></tr>
-<tr align="center"><td>PLN</td><td>11,21625</td><td>11,68938</td></tr>
-<tr align="center"><td>GBP</td><td>58,60652</td><td>60,30957</td></tr>
-<tr align="center"><td>CHF</td><td>53,39231</td><td>55,15</td></tr>
-</table>
-
-<div id="form"><form name="form">
-Проголосуйте за найкращий предмет на 1 курсі бакалаврату<br>
-<input type="radio" name="subject" id="math"><label for="math">Вища математика</label><br>
-<input type="radio" name="subject" id="physics"><label for="physics">Фізика</label><br>
-<input type="radio" name="subject" id="PE"><label for="PE">Фізичне виховання</label><br>
-<input type="radio" name="subject" id="program"><label for="program">Програмування</label><br>
-<input type="submit"><br>
-</form>
-</div>
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
