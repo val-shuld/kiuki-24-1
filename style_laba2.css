@@ -1,0 +1,31 @@
+* {
+  background-color: lightblue;
+}
+a {
+  padding-right: 6%;
+  font-size: 26px;
+  color: green;
+}
+ul {
+  padding-left: 10%;
+  list-style-image: url('marker.jpg');
+  font-size: 29px;
+}
+li {
+  padding-bottom: 2%;
+}
+#desc {
+  float: right;
+  font-size: 25px;
+}
+
+img[src="arrow.png"] {
+  width: 30%;
+}
+.important {
+  font-style: italic;
+}
+
+.important::first-letter {
+  color: blue;
+}
